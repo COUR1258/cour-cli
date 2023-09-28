@@ -1,0 +1,3 @@
+#! /usr/bin/env node
+// 配置入口位置
+require('../disk/index.js')

@@ -1,0 +1,34 @@
+{
+  "name": "cour-cli",
+  "version": "1.0.6",
+  "description": "个人自用脚手架",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "login": "login",
+    "push": "publish",
+    "build": "tsc",
+    "dbuild": "tsc & npm r -g cour-cli & npm  link"
+  },
+  "bin": {
+    "cour": "bin/entry"
+  },
+  "author": "cour125822",
+  "license": "ISC",
+  "keywords": [
+    "cour-cli",
+    "cour",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  }
+}
